@@ -1,11 +1,10 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>hello</title>
+    <title>秒杀失败</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
-<p th:text="'hello:'+${name}" ></p>
-<img th:src="@{'/img/iphonex.png'}" width="200" height="200" />
+秒杀失败：<p th:text="${errmsg}"></p>
 </body>
 </html>
